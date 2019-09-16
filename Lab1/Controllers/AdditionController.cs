@@ -16,6 +16,9 @@ namespace Lab1.Controllers
 
         }
 
-       
+        public IActionResult Multiplication(int x, int y)
+        {
+            return Ok("Result = " + (x * y).ToString());
+        }
     }
 }
